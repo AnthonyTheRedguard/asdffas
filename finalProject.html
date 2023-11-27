@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WEB-115 Final Project</title>
+        <style>
+
+            body
+            {
+                width: 100%;
+                background-color: rgb(49, 45, 45);
+                color: white;
+            }
+            .banner-image
+            {
+                background-color: rgb(15, 14, 14);
+                align-items: center;
+                display: flex;
+                border: 5px white dashed;
+            }
+            #logo
+            {
+                width: 400px;
+                height: auto;
+                float: left;
+            }
+            .banner-text
+            {
+                width: 100%;
+            }
+            .banner-text > h1
+            {
+                color: white;
+                font-size: 150px;
+                padding-left: 800px;
+                float: left;
+                width: auto;
+
+            }
+            .banner-text > p
+            {
+                float: right;
+                font-size: 15px;
+                color: white;
+                padding-right: 20px;
+            }
+            th
+            {
+                padding-left: 25px;
+                padding-right: 25px;
+                font-size: 40px;
+            }
+            tr
+            {
+                width: 100%;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="banner-image">
+            <img src="Core Values Fitness-logos_white.png" id="logo">
+            <div class="banner-text">
+                <h1>Build Your Meal Plan</h1>
+                <p>Name: Anthony Gilliam<br>Course: WEB-115<br>Section: 0002</p>
+            </div>
+        </div>
+        <form id="planForm">
+            <div class="mealTable">
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>Monday</th>
+                        <th>Tuesday</th>
+                        <th>Wednesday</th>
+                        <th>Thursday</th>
+                        <th>Friday</th>
+                        <th>Saturday</th>
+                        <th>Sunday</th>
+                    </tr>
+                    <tr>
+                        <th>Breakfast</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>Snack</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>Lunch</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>Snack 2</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>Dinner</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+                
+
+            </div>
+            <label for="name">Name: </label>
+            <input id="name" value="Please enter your name."><br><br>
+
+            <label for="email">Email: </label>
+            <input id="email" value="Please enter your email address."><br><br>
+            <label for="goal">Goal: </label>
+            <input id="goal" value="Please enter your goal for this week."><br><br>
+            <input type="button" id="planButton" value="Click to Submit">
+        </form>
+    </body>
+</html>
